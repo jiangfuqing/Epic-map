@@ -3,10 +3,10 @@
 a. Enter cellranger-atac-2.0.0/lib/python/atac/barcodes/;
 b. Replace default barcode file "737K-cratac-v1.txt.gz" with new custom barcode (in Barcode, also named as "737K-cratac-v1.txt.gz").
 
-2. Generate ATAC fragments file and gene expression matrix file from MISAR-seq data:
+2. Generate fragments file and peak_bc_matrix file from Epic-map data:
 bash Epic-map.sh
 
-3. After fill tissue region with white and non-tissue with black in photoshop or other image processing software manually:
+3. Fill tissue region with white and non-tissue with black in photoshop manually and saved as $sampleId-PS.jpg:
 python Figure_filter.py -i $sampleId
 
 4. Analysis Epic-map data:
