@@ -1,3 +1,6 @@
+# Epic-map workflow
+![image](https://raw.githubusercontent.com/gpenglab/MISAR-seq/main/MISAR-seq.png)
+
 # Epic-map data analysis pipeline
 1. Download and install cellranger-atac software from 10x genomics and replace their default barcode file:
 a. Enter cellranger-atac-2.0.0/lib/python/atac/barcodes/;
@@ -7,7 +10,7 @@ b. Replace default barcode file "737K-cratac-v1.txt.gz" with new custom barcode 
 bash Epic-map.sh
 
 3. Fill tissue region with white and non-tissue with black in photoshop manually and saved as $sampleId-PS.jpg:
-python Figure_filter.py -i $sampleId
+python Scripts/Figure_filter.py -i $sampleId
 
 4. Analysis Epic-map data:
 #for Epic-map in small-molecule drug:
