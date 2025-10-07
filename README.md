@@ -1,5 +1,5 @@
 # Epic-map workflow
-![image](blob:https://github.com/dd1640e5-2ec2-4a9f-a173-e8f9cc9ee973)
+![image](https://github.com/jiangfuqing/Epic-map/blob/main/Epic-map.jpg)
 
 # Epic-map data analysis pipeline
 1. Download and install cellranger-atac software from 10x genomics and replace their default barcode file:
