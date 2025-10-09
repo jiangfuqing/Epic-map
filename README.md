@@ -13,13 +13,13 @@
 ### 2. Data Processing
 Generate fragments file and peak_bc_matrix from Epic-map data:
 ```bash
-bash Epic-map.sh
+bash Epic-map.sh```
 
 ### 3. Fill tissue region with white and non-tissue with black in photoshop manually and saved as $sampleId-PS.jpg:
-```python Figure_filter.py -i $sampleId
+```python Figure_filter.py -i $sampleId```
 
 ### 4. Analysis Epic-map data:
 - for Epic-map in small-molecule drug:
-   ```Rscript Epic_map_for_drug_Signac.R $sampleId or Rscript Epic_map_for_drug_ArchR.R $sampleId
+   ```Rscript Epic_map_for_drug_Signac.R $sampleId or Rscript Epic_map_for_drug_ArchR.R $sampleId```
 - for Epic-map in both small-molecule drug and histone modification:
-   ```Rscript Epic_map_for_drug&histone.R $sampleId1 $sampleId2 $sampleId1 $modality1 $modality2
+   ```Rscript Epic_map_for_drug&histone.R $sampleId1 $sampleId2 $sampleId1 $modality1 $modality2```
