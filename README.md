@@ -5,21 +5,25 @@
 ## Epic-map Data Analysis Pipeline
 
 ### 1. Software Installation and Barcode Replacement
-- Download and install cellranger-atac software from 10x Genomics
+- Download and install cellranger-atac software from 10x Genomics and replace their default barcode file:
 - Replace the default barcode file:
-  - Navigate to: `cellranger-atac-2.0.0/lib/python/atac/barcodes/`
-  - Replace default barcode file `737K-cratac-v1.txt.gz` with custom barcode file (same filename)
+  - Enter cellranger-atac-2.0.0/lib/python/atac/barcodes/;
+  - Replace default barcode file "737K-cratac-v1.txt.gz" with new custom barcode (in Barcode file, also named as "737K-cratac-v1.txt.gz")
 
 ### 2. Data Processing
 Generate fragments file and peak_bc_matrix from Epic-map data:
 ```bash
-bash Epic-map.sh```
+bash Epic-map.sh
+```
 
 ### 3. Fill tissue region with white and non-tissue with black in photoshop manually and saved as $sampleId-PS.jpg:
-```python Figure_filter.py -i $sampleId```
+```python Figure_filter.py -i $sampleId
+```
 
 ### 4. Analysis Epic-map data:
-- for Epic-map in small-molecule drug:
-   ```Rscript Epic_map_for_drug_Signac.R $sampleId or Rscript Epic_map_for_drug_ArchR.R $sampleId```
+- for Epic-map in chemical drug:
+   ```Rscript Epic_map_for_drug_Signac.R $sampleId or Rscript Epic_map_for_drug_ArchR.R $sampleId
+   ```
 - for Epic-map in both small-molecule drug and histone modification:
-   ```Rscript Epic_map_for_drug&histone.R $sampleId1 $sampleId2 $sampleId1 $modality1 $modality2```
+   ```Rscript Epic_map_for_drug&histone.R $sampleId1 $sampleId2 $sampleId1 $modality1 $modality2
+   ```
