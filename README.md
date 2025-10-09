@@ -10,7 +10,7 @@ b. Replace default barcode file "737K-cratac-v1.txt.gz" with new custom barcode 
 bash Epic-map.sh
 
 3. Fill tissue region with white and non-tissue with black in photoshop manually and saved as $sampleId-PS.jpg:
-python Scripts/Figure_filter.py -i $sampleId
+python Figure_filter.py -i $sampleId
 
 4. Analysis Epic-map data:
 #for Epic-map in small-molecule drug:
