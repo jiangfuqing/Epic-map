@@ -13,7 +13,8 @@ Generate fragments file and peak_bc_matrix from Epic-map data:
 bash Epic-map.sh
 ```
 ### 3. Fill tissue region with white and non-tissue with black in photoshop manually and saved as $sampleId-PS.jpg:
-```python Figure_filter.py -i $sampleId
+```python
+python Figure_filter.py -i $sampleId
 ```
 ### 4. Analysis Epic-map data:
 - for Epic-map in chemical drug:
