@@ -1,4 +1,4 @@
-# Epic-map workflow
+# Spatial-Epigenome & Chemical drug binding map (Epic-map)
 ![image](https://github.com/jiangfuqing/Epic-map/blob/main/Epic-map.jpg)
 
 # Epic-map data analysis pipeline
