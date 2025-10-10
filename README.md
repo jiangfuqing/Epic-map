@@ -3,7 +3,7 @@
 
 ## Epic-map Data Analysis Pipeline
 ### 1. Software Installation and Barcode Replacement
-- Download and install cellranger-atac software from 10x Genomics and replace their default barcode file:
+- Download and install cellranger-atac software from 10x Genomics and replace their default barcode file;
 - Replace the default barcode file:
   - Enter cellranger-atac-2.0.0/lib/python/atac/barcodes/;
   - Replace default barcode file "737K-cratac-v1.txt.gz" with new custom barcode (in Barcode file, also named as "737K-cratac-v1.txt.gz").
