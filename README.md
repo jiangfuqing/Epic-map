@@ -23,5 +23,5 @@ Rscript Epic_map_for_drug_Signac.R $sampleId or Rscript Epic_map_for_drug_ArchR.
 ```
 - for Epic-map in both small-molecule drug and histone modification:
 ```R
-Rscript Epic_map_for_drug&histone.R $sampleId1 $sampleId2 $sampleId1 $modality1 $modality2
+Rscript Epic_map_for_drug&histone.R $sampleId1 $sampleId2 $modality1 $modality2
 ```
