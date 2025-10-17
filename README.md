@@ -25,3 +25,8 @@ Rscript Epic_map_for_drug_Signac.R $sampleId or Rscript Epic_map_for_drug_ArchR.
 ```R
 Rscript Epic_map_for_drug&histone.R $sampleId1 $sampleId2 $modality1 $modality2
 ```
+## iStar Analysis For Epic-map
+```bash
+bash iStar.sh
+```
+![image](https://github.com/jiangfuqing/Epic-map/blob/main/iStar.jpg)
